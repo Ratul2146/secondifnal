@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: linear-gradient(90deg, blue, red);
+
+}
+
+.container {
+    width: 50%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 80px auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.quesions {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 10px;
+    gap: 15px;
+}
+.quesions button:hover {
+    background-color: rgb(58, 38, 38);
+    color: white;
+    transition: ease 0.5s;
+}
+
+.quesions button {
+    
+    text-align: left;
+    padding: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+.next {
+    height: 30px;
+    margin: 10px auto;
+    width: 50px;
+    display: none;
+
+}
+.container h1, p{
+    margin: 10px;
+    padding: 5px;
+}
+.container p{
+    font-size: 20px;
+}
+.correct{
+    background: #9aeabc;
+}
+.incorrect{
+    
+    background: #ff9393;
+}
+
